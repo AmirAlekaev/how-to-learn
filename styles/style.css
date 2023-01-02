@@ -107,7 +107,7 @@
   justify-content: space-between;
 }
 
-.two-columns__briev {
+.two-columns__brief {
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -125,7 +125,7 @@
   min-width: 784px;
 }
 
-.two-colomns__paragraph {
+.two-columns__paragraph {
   margin: 0 0 30px 0;
   /*?? могу и паддингом 30 поставить?*/
   padding: 0;
@@ -140,6 +140,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.two-columns__span-accent:last-child {
+  margin-bottom: 0;
 }
 
 .digits {
@@ -191,7 +195,7 @@
   list-style: none;
 }
 
-.table__heding {
+.table__heading {
   margin: 0;
   padding: 0;
   line-height: 1.15;
@@ -207,16 +211,8 @@
   font-style: normal;
 }
 
-.table__text__footer {
-  margin: 20px 0;
-  padding: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
-}
-
 .feynman {
-  height: 790px;
+  min-height: 890px;
   position: relative;
   background-image: url(/images/feynman.png);
   background-repeat: no-repeat;
@@ -330,6 +326,11 @@
   /*оцентровали внутренние блоки относительно 90%*/
   background-color: #1f1f1f;
 
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__columns {
