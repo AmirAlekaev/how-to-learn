@@ -1,0 +1,11 @@
+.footer {
+    min-height: 350px;
+    box-sizing: border-box;
+    /*фиксируем размеры div, и padding и border вычитаем из ширины и длины блока */
+    padding: 60px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    /*оцентровали внутренние блоки относительно 90%*/
+    background-color: #1f1f1f;
+
+}

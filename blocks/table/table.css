@@ -1,0 +1,10 @@
+.table {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    /*размещение 123 // 456*/
+    justify-content: space-between;
+    /*выравнивания главной оси : распределиться между нашими flex-элементами*/
+    margin: 0 auto;
+    padding-left: 0;
+}
